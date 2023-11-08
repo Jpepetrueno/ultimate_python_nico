@@ -84,10 +84,10 @@ while True:
     num2 = input_numero("Ingresa el segundo número: ")
 
     if opcion == 1:
-        print("Resultado: ", suma(num1, num2))
+        print("Resultado de la suma: ", suma(num1, num2))
     elif opcion == 2:
-        print("Resultado: ", resta(num1, num2))
+        print("Resultado de la resta: ", resta(num1, num2))
     elif opcion == 3:
-        print("Resultado: ", multiplicacion(num1, num2))
+        print("Resultado de la multiplicación: ", multiplicacion(num1, num2))
     elif opcion == 4:
-        print("Resultado: ", division(num1, num2))
+        print("Resultado de la división: ", division(num1, num2))

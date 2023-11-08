@@ -1,0 +1,13 @@
+# int()
+# str()
+# float()
+# bool() boolean que dice si es Falsy False ('vacío', 0, none)
+# o Truthy True (para el resto de objetos)
+
+print(bool())
+print(bool(''))
+print(bool('hola'))
+print(bool('0'))
+print(bool(None))
+print(bool(' '))
+print(bool(0))
