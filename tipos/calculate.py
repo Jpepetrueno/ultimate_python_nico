@@ -60,10 +60,12 @@ def input_opcion(mensaje, min_value, max_value):
 
 
 # Función principal del programa
-def main(): """
-    Esta es la función principal del programa. 
-    Muestra un menú de operaciones de calculadora al usuario y solicita que elija una opción. 
-    Luego, solicita al usuario que introduzca dos números y realiza la operación seleccionada en esos números. 
+def main():
+    """
+    Esta es la función principal del programa.
+    Muestra un menú de operaciones de calculadora al usuario y solicita que elija una opción.
+    Luego, solicita al usuario que introduzca dos números y realiza la operación seleccionada
+    en esos números.
     Si el usuario elige "Salir", el programa termina.
     """
     # Diccionario que mapea las opciones del menú a las funciones correspondientes
